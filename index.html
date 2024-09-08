@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Super Trunfo Ninja</title>
+</head>
+<body>
+    <header>
+        <h1>Super Trunfo Ninja</h1>
+        <p>¡Jogue com seus ninjas favoritos de Naruto!</p>
+    </header>
+    <main>
+        <div class="Caixote">
+            <div class="personagem-um">
+                <h3>Nome do Personagem</h3>
+                <img src="narutinho.png" alt="Imagem do naruto">
+                <p>Força : </p>
+                <p>Habilidades : </p>
+                <button type="submit" onclick="gerarNumero1(1, 30)" id="gerarNumeroAleatorio">!</button>
+                <input type="text" class="resultado" id="resultado">
+                <button type="submit" onclick="buscarPersonagem()" id="pesquisarPersonagem">Fight</button>    
+            </div>
+            
+            <div class="personagem-dois">
+                <h3>Nome do Personagem</h3>
+                <img src="narutinho.png" alt="Imagem do naruto">
+                <p>Força : </p>
+                <p>Habilidades : </p>
+                <button type="submit" onclick="gerarNumero2(1, 30)" id="gerarNumeroAleatorio">!</button>
+                <input type="text" class="roleta" id="roleta"> <!--Nome alterado para conseguir acessar no JS-->
+                <button type="submit" onclick="efetuarBusca()" id="pesquisarPersonagem">Fight</button> <!--Onclick alterado para ser possível utilizar-->
+            </div> -->
+        </div>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados &copy. Super Trunfo Ninja 2024.</p>
+    </footer>
+    <script src="ninjas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
